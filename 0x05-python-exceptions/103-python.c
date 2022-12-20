@@ -11,7 +11,7 @@ void print_python_float(PyObject *p)
 
 	fflush(stdout);
 	printf("[.] float object info\n");
-:
+
 	if (!PyFloat_CheckExact(p))
 	{
 		printf("  [ERROR] Invalid Float Object\n");
