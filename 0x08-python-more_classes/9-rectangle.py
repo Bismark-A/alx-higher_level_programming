@@ -8,17 +8,17 @@ class Rectangle:
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
         print_symbol (any): The symbol used for string representation.
-        """
+    """
 
     number_of_instances = 0
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):
-    """Initialize a new Rectangle.
+        """Initialize a new Rectangle.
 
-    Args:
-        width (int): The width of the new rectangle.
-        height (int): The height of the new rectangle.
+        Args:
+            width (int): The width of the new rectangle.
+            height (int): The height of the new rectangle.
         """
         type(self).number_of_instances += 1
         self.width = width
