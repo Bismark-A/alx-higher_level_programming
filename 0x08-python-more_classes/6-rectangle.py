@@ -2,7 +2,7 @@
 """Defines a Rectangle class."""
 
 
- class Rectangle:
+class Rectangle:
     """Represent a rectangle.
 
     Attributes:
